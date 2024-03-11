@@ -13,6 +13,10 @@ inputs:
     description: 'Your input description here'
     required: true
     default: '1000'
+  issues:
+    description: 'Coming issue body'
+    required: true
+    default: ${{ github.event.issue.body }}"
 
 # Define your outputs here.
 outputs:
